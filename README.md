@@ -59,7 +59,7 @@ training_score = model.score(xtrain, ytrain)
 
 # Linear Regression
 # Achieved a training R-squared score of approximately 0.69.
-print("Training R-squared:", training_score)
+
 
 KN = KNeighborsRegressor(n_neighbors=6)
 KN.fit(xtrain, ytrain)
