@@ -69,8 +69,7 @@ testing_score_knn = KN.score(xtest, ytest)
 # K-Nearest Neighbors Regression (KNN)
 # Achieved training R-squared score 87%
 # Achieved a testing R-squared score of 83%.
-print("KNN Training R-squared:", training_score_knn)
-print("KNN Testing R-squared:", testing_score_knn)
+
 
 ## Results
 
